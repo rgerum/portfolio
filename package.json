@@ -1,0 +1,28 @@
+{
+  "name": "next-with-linaria",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@linaria/babel-preset": "5.0.3",
+    "@linaria/core": "5.0.2",
+    "@linaria/react": "5.0.2",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.5.3",
+    "next-with-linaria": "0.6.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-feather": "^2.0.10",
+    "three": "^0.162.0",
+    "typescript": "4.9.3"
+  }
+}
