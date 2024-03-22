@@ -10,9 +10,6 @@ export default function HeaderBar() {
             <NavItem>
               <NavLink href="/">Home</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/about">About</NavLink>
-            </NavItem>
           </NavList>
         </nav>
       </WrapperInner>

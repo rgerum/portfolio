@@ -146,43 +146,13 @@ export default function Home() {
               study physics. Here again I realized how important programming
               skills are to analyse and visualize data.
             </p>
-            <p>
-              An especially handy skill were the ML where I found out that it
-              essential for robust image analysis.
-            </p>
           </BigCard>
         </CenteredContainer>
 
         <Spacer height={100} />
 
         <Projects />
-
-        <Description>
-          Get started by editing <Code>app/page.tsx</Code>
-        </Description>
-
-        <Grid>
-          <Card href="https://beta.nextjs.org/docs">
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js 13</p>
-          </Card>
-
-          <Card href="https://github.com/vercel/next.js/tree/canary/examples">
-            <h2>Examples &rarr;</h2>
-            <p>Explore the Next.js 13 playground.</p>
-          </Card>
-
-          <Card
-            href="https://vercel.com/templates/next.js/app-directory?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>Deploy your Next.js site to a public URL with Vercel.</p>
-          </Card>
-        </Grid>
       </Main>
-
       <Footer></Footer>
     </>
   );
