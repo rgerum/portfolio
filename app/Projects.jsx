@@ -101,7 +101,7 @@ const TitleProjects = styled.h2`
   position: sticky;
   top: 80px;
   margin: 0;
-  padding: 16px max(16px, (100% - 1000px) / 2 + 16px);
+  padding: 16px max(2 * 24px, (100% - 1000px) / 2 + 2 * 24px);
   z-index: 1;
 
   background: hsl(var(--color-white-core) / 0.75);
