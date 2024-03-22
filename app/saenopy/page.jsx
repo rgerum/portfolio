@@ -116,7 +116,8 @@ export default function Page() {
               </p>
               <p>
                 This algorithm uses a 3D cross-correlation to find a match of
-                the "relaxed" image stack in the "deformed" image stack.
+                the &quot;relaxed&quot; image stack in the &quot;deformed&quot;
+                image stack.
               </p>
             </BigCard>
           </Group>

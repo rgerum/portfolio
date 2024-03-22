@@ -1,4 +1,4 @@
-const withLinaria = require('next-with-linaria');
+const withLinaria = require("next-with-linaria");
 
 /** @type {import('next-with-linaria').LinariaConfig} */
 const config = {};

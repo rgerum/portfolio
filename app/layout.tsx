@@ -16,14 +16,14 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head>
-          <link rel="preconnect" href="https://fonts.gstatic.com"/>
-          <link
-              href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300..900;1,300..900&display=swap"
-              rel="stylesheet"
-          />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300..900;1,300..900&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body>
-      <Script id="show-banner" type="importmap">
+        <Script id="show-banner" type="importmap">
           {`
         {
           "imports": {
@@ -32,7 +32,7 @@ export default function RootLayout({
           }
         }
               `}
-      </Script>
+        </Script>
         <Background />
         <Container>
           <HeaderBar />

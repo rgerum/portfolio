@@ -20,9 +20,9 @@ export const globals = css`
         Droid Sans,
         Helvetica Neue,
         sans-serif;
-        -webkit-font-smoothing: antialiased;
-        line-height: 1.5;
-        
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.5;
+
       --color-white-core: 262deg 100% 99%;
 
       --color-white: hsl(var(--color-white-core));

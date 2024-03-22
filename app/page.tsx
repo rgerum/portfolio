@@ -132,16 +132,25 @@ export default function Home() {
         <Spacer height={100} />
 
         <CenteredContainer>
-        <BigCard>
-          <Spacer height={60} />
-          <ProfilePic />
-          <Title>About Me</Title>
-          <p>I started programming as a teenager when I realized that playing computer games is fun, but it's actually
-          more fun to develop my own.</p>
-          <p>The same desire to find out how things work fueled my curiosity to study physics. Here again I realized how
-          important programming skills are to analyse and visualize data.</p>
-          <p>An especially handy skill were the ML where I found out that it essential for robust image analysis.</p>
-        </BigCard>
+          <BigCard>
+            <Spacer height={60} />
+            <ProfilePic />
+            <Title>About Me</Title>
+            <p>
+              I started programming as a teenager when I realized that playing
+              computer games is fun, but it&apos;s actually more fun to develop
+              my own.
+            </p>
+            <p>
+              The same desire to find out how things work fueled my curiosity to
+              study physics. Here again I realized how important programming
+              skills are to analyse and visualize data.
+            </p>
+            <p>
+              An especially handy skill were the ML where I found out that it
+              essential for robust image analysis.
+            </p>
+          </BigCard>
         </CenteredContainer>
 
         <Spacer height={100} />
