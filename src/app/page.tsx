@@ -1,5 +1,6 @@
+"use client";
 import Image from "next/image";
-import { styled } from "@linaria/react";
+import { styled } from "styled-components";
 import HeaderBar from "./HeaderBar";
 import Hero from "./Hero";
 import BigCard from "./BigCard";

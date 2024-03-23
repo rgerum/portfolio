@@ -1,4 +1,4 @@
-import { styled } from "@linaria/react";
+import { styled } from "styled-components";
 
 export default function CardSlider({ children, ...delegated }) {
   return <Wrapper {...delegated}>{children}</Wrapper>;

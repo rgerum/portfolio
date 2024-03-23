@@ -1,7 +1,7 @@
 import CenteredContainer from "./CenteredContainer";
 import CardSlider from "./CardSlider";
 import BigCard from "./BigCard";
-import { styled } from "@linaria/react";
+import { styled } from "styled-components";
 import Link from "next/link";
 
 function BigCardProject({ children, ...delegated }) {

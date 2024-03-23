@@ -1,5 +1,8 @@
-const withLinaria = require("next-with-linaria");
+// @ts-check
 
-/** @type {import('next-with-linaria').LinariaConfig} */
-const config = {};
-module.exports = withLinaria(config);
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  /* config options here */
+};
+
+module.exports = nextConfig;

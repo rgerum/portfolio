@@ -1,4 +1,4 @@
-import { styled } from "@linaria/react";
+import { styled } from "styled-components";
 
 export default function BigCard({ children, ...delegated }) {
   return <Wrapper {...delegated}>{children}</Wrapper>;

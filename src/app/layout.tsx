@@ -1,8 +1,9 @@
-import "./style.linaria.global";
+"use client";
 import HeaderBar from "./HeaderBar";
 import React from "react";
-import { styled } from "@linaria/react";
+import { styled } from "styled-components";
 import Script from "next/script";
+import { Globals } from "./globalStyles.js";
 
 export default function RootLayout({
   children,
@@ -38,6 +39,7 @@ export default function RootLayout({
           <HeaderBar />
           {children}
         </Container>
+        <Globals />
       </body>
     </html>
   );

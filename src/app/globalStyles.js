@@ -1,7 +1,7 @@
-import { css } from "@linaria/core";
+"use client";
+import { createGlobalStyle } from "styled-components";
 
-export const globals = css`
-  :global() {
+export const Globals = createGlobalStyle`
     html,
     body {
       height: 100%;
@@ -50,5 +50,4 @@ export const globals = css`
         background: black;
       }
     }
-  }
 `;
