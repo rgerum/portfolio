@@ -1,8 +1,16 @@
 import React from "react";
 import { styled } from "styled-components";
+import useWasOnscreenHook from "../../hooks/use-was-onscreen.hook";
 
 function BigCardWrapper({ children, ...delegated }) {
-  return <Group {...delegated}>{children}</Group>;
+  const ref = React.useRef();
+  const isOnScreen = useWasOnscreenHook(ref);
+
+  return (
+    <Group {...delegated} ref={ref} data-visible={isOnScreen}>
+      {children}
+    </Group>
+  );
 }
 
 const Group = styled.div`
@@ -10,7 +18,12 @@ const Group = styled.div`
   gap: 1rem;
   width: auto;
   align-items: center;
-  animation: fadeing 0.5s both;
+  transform: translateY(50px);
+
+  &[data-visible="true"] {
+    animation: fadeing 0.5s both;
+    animation-delay: 0ms;
+  }
 
   &[data-overhang="left"] {
     --overhang: clamp(-64px, -100vw + 1000px, 0px);

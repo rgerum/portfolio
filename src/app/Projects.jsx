@@ -3,6 +3,7 @@ import CardSlider from "./CardSlider";
 import BigCard from "./BigCard";
 import { styled } from "styled-components";
 import Link from "next/link";
+import Image from "next/image";
 
 function BigCardProject({ children, ...delegated }) {
   return (
@@ -41,7 +42,8 @@ export default function Projects() {
         <CardSlider>
           <BigCardProject href="/saenopy">
             <Title>Saenopy</Title>
-            <Image
+            <ProjectImage
+              width={300}
               src={
                 "https://saenopy.readthedocs.io/en/latest/_images/Liver_fibroblasts.png"
               }
@@ -60,7 +62,7 @@ export default function Projects() {
           </BigCardProject>
           <BigCardProject href="/duostories">
             <Title>Duostories</Title>
-            <Image src={"DuostoriesMain.png"} />
+            <ProjectImage src={"DuostoriesMain.png"} width={300} />
             <p>
               Web platform for language learning (70+ languages), integrations
               with AWS, Azure, Google for TTS 5.3k registered users.
@@ -75,7 +77,8 @@ export default function Projects() {
           </BigCardProject>
           <BigCardProject href="https://www.elifesciences.org/articles/si-78823-2022-05-19-1">
             <Title>Flow Cytometry</Title>
-            <Image
+            <ProjectImage
+              width={300}
               src={
                 "https://iiif.elifesciences.org/lax:78823%2Felife-78823-fig1-v2.tif/full/1500,/0/default.jpg"
               }
@@ -115,7 +118,7 @@ const Title = styled.h3`
   color: var(--color-primary);
 `;
 
-const Image = styled.img`
+const ProjectImage = styled.img`
   width: 300px;
   display: block;
   aspect-ratio: 1;
